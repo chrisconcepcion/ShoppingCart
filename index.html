@@ -22,8 +22,27 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>ShoppingCart</p>
+        <form>
+            <fieldset>
+                <legend>Shopping Bag</legend>
+                    <label>Item:</label>
+                    <input type="text"><br>
+                    <input type=submit>
+                    <button type="button" class="remove">Removed Checked Items</button>
+            </fieldset>
+        </form>
 
+        <div class="cart">
+            <div class="cartItem">
+                <input class="check" type="checkbox"><span>Coat</span><br>
+            </div>
+        
+
+        
+            <div class="cartItem">
+                <input class="check" type="checkbox"><span>Shoes</span><br>
+            </div>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

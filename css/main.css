@@ -96,14 +96,52 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+fieldset, .cartItem {
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    border:1px solid #c3c3c3;
+    display: block;
+}
 
+fieldset {
+    height: 150px;
+}
 
+legend {
+    padding: 0.2em 0.5em;
+    text-align: center;
+    font-size:1.2em;
+}
+input, label {
+    position: relative;
+    display: block;
+    left: 10%;
+}
 
+.cart {
+    position: relative;
+}
 
+.cartItem {
+    top: 20px;
+    border-radius: 5px;
+    margin-top:  10px;
+    height: 60px;
 
+}
+input[type=checkbox], span {
+     position:absolute;
+     top: 40%;
+}
+input[type=checkbox] {
+    display: inline-block;
+}
 
-
-
+span {
+    left: 12%;
+}
 
 
 
